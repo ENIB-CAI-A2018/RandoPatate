@@ -1,0 +1,33 @@
+<div class="container">
+  <div class="row">
+    <div class="sidebar">
+      <!--Sidebar content-->
+      <div>
+        Search: <input [(ngModel)]="query">
+      </div>
+      <div>
+          Sort by:
+          <select [(ngModel)]="orderProp">
+              <option value="id">croissant</option>
+              <option value="longueur">Longueur approx</option>
+          </select>
+      </div>
+      <div>Total number of grs: {{grs.length}}</div>
+  </div>
+      <div class="main">
+          <!--Main content-->
+          <ul>
+              <li *ngFor="let gr of (Grs | filterArray:query | orderby : orderProp)">
+                  <span>{{gr.id}}</span>
+                  <p>{{gr.region}}</p>
+                  <p>{{gr.difficulte}}</p>
+                  
+                  <img class="img-thumbnail" [src]="gr.img" alt="Gr image"/>
+                
+                  <a href="Grs/{{gr.id}}" class="btn btn-primary">Detail</a>
+                  
+              </li>
+          </ul>
+      </div>
+  </div>
+</div>

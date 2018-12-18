@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+/*arriere plan noir au top navigation*/
+.topnav{
+    background-color:white;
+    overflow: hidden;
+    position:fixed;
+}
+
+/* style the link inside the nav bar*/
+.topnav a{
+    float:left;
+    color:#800000;
+    text-align: center;
+    padding-left:16px;
+    padding-right:16px;
+    text-decoration:none;
+    font-size:17px;
+}
+
+/*change color of link on hover*/
+
+.topnav a:hover{
+    background-color: #ddd;
+    color:#800000;
+}
+

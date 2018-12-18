@@ -1,0 +1,23 @@
+<div class="container" *ngIf="Gr">
+    <div class="row">
+        <div class="col-md-4" ><img [src]="Gr.img" class="img-thumbnail" *ngIf="Gr"></div>
+        <div class="col-md-8">
+            <h1>{{gr.id}}</h1>
+            <p class="text-justify">{{gr.difficulte}}</p>
+            <ul class="list-inline">
+                <li class="list-inline-item">
+                    <img [src]="gr.img" class="img-thumbnail thumb">
+                </li>
+                <li class="list-inline-item">
+                    <img [src]="gr.label" class="img-thumbnail thumb">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <ul class="list-group">
+        <li class="list-group-item"><dl><dt>longueur</dt><dd>{{gr.longueur}}</dd></dl></li>
+        <li class="list-group-item"><dl><dt>depart</dt><dd>{{gr.depart}}</dd></dl></li>
+        <li class="list-group-item"><dl><dt>arrivee</dt><dd>{{gr.arrivee}}</dd></dl></li>
+        <li class="list-group-item"><dl><dt>specialite</dt><dd>{{gr.specialite}}</dd></dl></li>
+    </ul>
+</div>
