@@ -1,0 +1,26 @@
+[
+    {    
+        "nom" : "Paerlo",
+        "ingredients" : ["salade","tomate","onion"],
+        "description" : "Un espece de kebab du futur" 
+    },
+
+
+    {    
+        "nom" : "Mazzioneta",
+        "ingredients" : ["Tortellini","Frommaggio","Jambonno"],
+        "description" : "Un plat tout droit venu de l'Italie" 
+    },
+    
+    {    
+        "nom" : "VonChrust",
+        "ingredients" : ["Saucisse de Francfort","Biere","Moutarde"],
+        "description" : "Un plat de l'Est comme seuls les gens de l'Est savent les faire" 
+    },
+    {    
+        "nom" : "Jambon Beurre",
+        "ingredients" : ["Jambon","Beurre"],
+        "description" : "Comme le Sandwich Jambon Beurre mais sans pain" 
+    }
+    
+]

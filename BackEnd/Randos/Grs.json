@@ -1,0 +1,42 @@
+[
+    {
+        "region":"Corse",
+        "id": 20,
+        "difficulte":"difficile",
+        "longueur":200,
+        "départ":"Calenzana",
+        "arrivée":"Conca",
+        "specialite":"special20",
+        "img": "assets/Grs/img/20.jpg"
+    },
+    {
+        "region": "Bretagne",
+        "id":58 ,
+        "difficulte":"Facile",
+        "longueur":272,
+        "départ":"Le Puy-en-Velay",
+        "arrivée":"Alès",
+        "specialite":"special58",
+        "img": "assets/Grs/img/58.jpg"
+    },
+    {
+        "region": "Nord-pas-de-Calais",
+        "id":70 ,
+        "difficulte":"Intermediaire",
+        "longueur":70,
+        "départ":"Le Puy-en-Velay",
+        "arrivée":"Alès",
+        "specialite":"special70",
+        "img": "assets/Grs/img/70.jpg"
+    },
+    {
+        "region": "Provence",
+        "id":22 ,
+        "difficulte":"allez",
+        "longueur":15020,
+        "départ":"Le Puy-en-Velay",
+        "arrivée":"Alès",
+        "specialite":"special22",
+        "img": "assets/Grs/img/22.jpg"
+    }
+]

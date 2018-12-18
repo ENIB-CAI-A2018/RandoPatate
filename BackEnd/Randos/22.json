@@ -1,0 +1,12 @@
+[
+    {
+        "region": "Pas clair",
+        "id":22 ,
+        "difficulte":"allez",
+        "longueur":15020,
+        "départ":"Le Puy-en-Velay",
+        "arrivée":"Alès",
+        "specialite":"special22",
+        "img": "assets/Grs/img/22.jpg"
+    }
+]

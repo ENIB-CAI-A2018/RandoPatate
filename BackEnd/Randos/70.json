@@ -1,0 +1,12 @@
+[
+    {
+        "region": "Pas clair",
+        "id":70 ,
+        "difficulte":"Intermediaire",
+        "longueur":70,
+        "départ":"Le Puy-en-Velay",
+        "arrivée":"Alès",
+        "specialite":"special70",
+        "img": "assets/Grs/img/70.jpg"
+    }
+]

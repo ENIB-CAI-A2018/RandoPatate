@@ -1,0 +1,7 @@
+[
+    {    
+        "nom" : "Jambon Beurre",
+        "ingredients" : ["Jambon","Beurre"],
+        "description" : "Comme le Sandwich Jambon Beurre mais sans pain" 
+    }
+]

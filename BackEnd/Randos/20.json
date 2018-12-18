@@ -1,0 +1,12 @@
+[
+    {
+        "region":"Corse",
+        "id": 20,
+        "difficulte":"difficile",
+        "longueur":200,
+        "départ":"Calenzana",
+        "arrivée":"Conca",
+        "specialite":"special20",
+        "img": "assets/Grs/img/20.jpg"
+    }
+]
